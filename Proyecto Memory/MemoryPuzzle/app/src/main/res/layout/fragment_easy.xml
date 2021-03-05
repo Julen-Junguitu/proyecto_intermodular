@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EasyFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/txtPlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/texto_nombre"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:width="450px"
+            android:text="text"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Chronometer
+            android:id="@+id/chrono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#FFFFFF"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="28dp"
+            android:text="easy"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="121dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="336dp"
+            android:src="@drawable/back"
+            android:tag="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+        <ImageView
+            android:id="@+id/iv_2"
+            android:layout_width="121dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="336dp"
+            android:src="@drawable/back"
+            android:tag="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_3" />
+
+        <ImageView
+            android:id="@+id/iv_3"
+            android:layout_width="121dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="336dp"
+            android:src="@drawable/back"
+            android:tag="2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_1" />
+
+        <ImageView
+            android:id="@+id/iv_4"
+            android:layout_width="121dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="150dp"
+            android:src="@drawable/back"
+            android:tag="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_5"
+            android:layout_width="121dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="150dp"
+            android:src="@drawable/back"
+            android:tag="4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_3" />
+
+        <ImageView
+            android:id="@+id/iv_6"
+            android:layout_width="121dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="150dp"
+            android:src="@drawable/back"
+            android:tag="5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

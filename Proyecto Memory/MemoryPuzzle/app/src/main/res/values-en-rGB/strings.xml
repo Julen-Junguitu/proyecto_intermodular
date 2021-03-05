@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MemoryPuzzle</string>
+    <string name="texto_inicio">Memory Puzzle App</string>
+    <string name="btn_jugar">Play</string>
+    <string name="btn_puntuaciones">Scores</string>
+    <string name="btn_creditos">Credits</string>
+    <string name="texto_creditos">App created by Julen, Mikel and Javier</string>
+    <string name="texto_dificultad">Select dificulty</string>
+    <string name="btn_facil">Easy</string>
+    <string name="btn_medio">Normal</string>
+    <string name="btn_dificil">Hard</string>
+    <string name="texto_nombre">The player name :  </string>
+    <string name="texto_timer">00</string>
+    <string name="texto_puntuaciones">SCORES:</string>
+    <string name="facil">Easy level</string>
+    <string name="medio">Medium level</string>
+    <string name="dificil">Hard level</string>
+    <string name="nombre_usuario">Introduce your username:</string>
+    <string name="usuario_no_valido">Introduce a valid username</string>
+    <string name="alert_title">Congratulations!</string>
+    <string name="alert_1">You won in </string>
+    <string name="alert_2"> seconds </string>
+    <string name="alert_3"> and you have achieved </string>
+    <string name="alert_4"> points</string>
+    <string name="volver">Return</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
